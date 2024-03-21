@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.prompt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #126e82;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.score {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.option-container-one {
+
+        display: flex;
+        justify-content: space-around;
+        margin-left:25%;
+        margin-right: 25%;
+        margin-top: 10%;
+}
+
+.option-container-two {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.option {
+
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        color:white;
+        padding: 10px;
+        background-color: #126e82;
+        margin: 10px;
+        border-radius: 50px;
+        border: none;
+        font-size: 1.5rem;
+        margin:20px;
+        cursor: pointer;
+        transition: 0.3s linear all;
+        width:45%;
+        transition: 0.3s linear all;
+
+}
+
+.option:hover {
+    background-color: darken(#126e82,10%);
+}
+.fbutton_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.next_button {
+    font-size: 1rem;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #aad8d3;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    transition: 0.3s linear all;
+
+}
+
+.next_button:hover {
+    background-color: darken(#aad8d3,10%);
+}
